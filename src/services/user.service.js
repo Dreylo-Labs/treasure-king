@@ -63,8 +63,6 @@ class UserService {
         await userwallet.save();
       }
 
-      
-
       await this.wallethistory.findOneAndUpdate(
         { wallet: userwallet._id },
         {
@@ -88,7 +86,7 @@ class UserService {
       userId: userId,
     });
 
-    // await this.smsService.sendSMS(phone, otp);
+    await this.smsService.sendSMS(phone, otp);
 
     return newUser;
   }

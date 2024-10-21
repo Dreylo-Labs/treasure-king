@@ -6647,3 +6647,16 @@
 [2024-10-21 21:58:24:5824] [info]: connected to database
 [2024-10-21 21:58:26:5826] [info]: 🚀 We are live on port: 8080
 [2024-10-21 21:58:29:5829] [info]: connected to database
+[2024-10-21 22:59:59:5959] [info]: 🚀 We are live on port: 8080
+[2024-10-21 23:00:02:02] [info]: connected to database
+[2024-10-21 23:00:42:042] [info]: 🚀 We are live on port: 8080
+[2024-10-21 23:00:45:045] [info]: connected to database
+[2024-10-21 23:00:49:049] [info]: 🚀 We are live on port: 8080
+[2024-10-21 23:00:52:052] [info]: connected to database
+[2024-10-21 23:01:25:125] [info]: 🚀 We are live on port: 8080
+[2024-10-21 23:01:29:129] [info]: connected to database
+[2024-10-21 23:01:30:130] [info]: GET /api/v1/notification 401 12.506 ms - 52
+[2024-10-21 23:01:43:143] [info]: GET /api/v1/notification 404 318.443 ms - -
+[2024-10-21 23:01:55:155] [info]: 🚀 We are live on port: 8080
+[2024-10-21 23:01:58:158] [info]: connected to database
+[2024-10-21 23:02:02:22] [info]: GET /api/v1/notification 200 935.260 ms - 354

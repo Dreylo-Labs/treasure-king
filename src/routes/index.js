@@ -7,6 +7,7 @@ const investmentCycleRouter = require("./investment-cycle");
 const walletHistoryRouter = require("./wallethistory");
 const productRouter = require("./product");
 const orderRouter = require("./order");
+const notificationRouter = require("./notification");
 // const investmentRouter = require('./investment');
 // const investmentCycleRouter = require("./investment-cycle");
 
@@ -22,4 +23,5 @@ module.exports = (app) => {
   app.use("/api/v1/order", orderRouter);
   app.use("/api/v1/investment", investmentRouter);
   app.use("/api/v1/investment-cycle", investmentCycleRouter);
+  app.use("/api/v1/notification", notificationRouter);
 };
