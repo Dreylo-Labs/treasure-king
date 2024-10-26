@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
         "Mobile number must be a 10-digit number without any spaces or special characters.",
     },
   },
-  preferralcode: { type: String, required: true, default: "TKR0000001" },
+  preferralcode: { type: String, required: false, default: "TKR0000001" },
   referralcode: {
     type: String,
     required: true,
