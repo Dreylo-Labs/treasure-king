@@ -7,7 +7,12 @@ const adminSchema = new Schema(
       type: String,
     },
     password: String,
+    isAdmin: {
+      type: Boolean,
+      default: true,
+    },
   },
+
   {
     timestamps: true,
     toObject: { virtuals: true },

@@ -9,17 +9,13 @@ class InvestmentService {
     this.groupService = GroupService;
   }
 
-  async createInvestment(userId, amount, returnAmount) {
+  async createInvestment(userId, planId) {
     const investmentId = `TK${generateRandomNumber(7)}`;
-    await this.model.findOneAndUpdate(
-      { userId: userId },
-      { $set: { isActive: false } }
-    );
+    await this.model.findOneAndUpdate({ userId: userId }, { $set: { isActive: false } });
     const investment = await this.model.create({
       userId,
-      amount,
+      planId,
       investmentId,
-      returnAmount,
       isActive: true,
     });
 
@@ -48,19 +44,19 @@ class InvestmentService {
       },
       {
         $group: {
-          _id: "$groupId",
+          _id: '$groupId',
         },
       },
       {
         $lookup: {
-          from: "groups",
-          localField: "_id",
-          foreignField: "_id",
-          as: "group",
+          from: 'groups',
+          localField: '_id',
+          foreignField: '_id',
+          as: 'group',
         },
       },
       {
-        $unwind: "$group",
+        $unwind: '$group',
       },
     ]);
 

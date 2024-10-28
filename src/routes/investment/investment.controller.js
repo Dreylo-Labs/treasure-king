@@ -10,13 +10,9 @@ class InvestmentController extends BaseController {
   createInvestment() {
     return this.asyncWrapper(async (req) => {
       const { _id: userId } = req.user;
-      const { amount, returnAmount } = req.body;
+      const { planId } = req.body;
 
-      const investment = await this.service.createInvestment(
-        userId,
-        amount,
-        returnAmount
-      );
+      const investment = await this.service.createInvestment(userId, planId);
 
       return {
         data: investment,

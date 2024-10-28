@@ -19,25 +19,21 @@ class AddressService {
     }
 
     existingAddress.street = addressUpdates.street;
-    existingAddress.city=addressUpdates.city;
+    existingAddress.city = addressUpdates.city;
     existingAddress.state = addressUpdates.state;
     existingAddress.pincode = addressUpdates.pincode;
-    existingAddress.country=addressUpdates.country;
+    existingAddress.country = addressUpdates.country;
     await existingAddress.save();
 
     return existingAddress;
   }
 
-  async deleteAddress(userId) {
+  async deleteAddress(userId, addressId) {
+    //  const address = await this.model.findOne({userId })
 
-   const address = await this.model.findOne({userId })
-
-    return address
-
-
+    const address = await this.model.findOneAndDelete({ userId, _id: addressId });
+    return address;
   }
-
-
 }
 
 module.exports = new AddressService();

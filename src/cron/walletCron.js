@@ -1,5 +1,6 @@
 const cron = require("node-cron");
 const Investment = require("../models/investment");
+const Plan = require("../models/plan");
 const Wallet = require("../models/wallet");
 const WalletHistory = require("../models/wallethistory");
 const NotificationService = require("../services/notification.service");
@@ -8,16 +9,23 @@ const NotificationService = require("../services/notification.service");
 
 const addDailyReturnToWallets = async () => {
   try {
-    
-    const investments = await Investment.find().populate({ path: "userId" });
+    const investments = await Investment.find().populate({ path: 'userId' });
 
     if (!investments.length) {
-      console.error("No investment found.");
+      console.error('No investment found.');
       return;
     }
 
     for (const investment of investments) {
-      const { userId } = investment;
+      const { userId, planId } = investment;
+
+      
+      const plan = await Plan.findById(planId);
+
+      if (!plan) {
+        console.log(`No plan found for investment of user ${userId.phone}`);
+        continue; 
+      }
 
       const activeInvestment = await Investment.findOne({
         userId: userId._id,
@@ -27,27 +35,27 @@ const addDailyReturnToWallets = async () => {
       if (activeInvestment) {
         const wallet = await Wallet.findOne({ userId: userId._id });
 
-        const walletHistory = await WalletHistory.findOne({
-          userId: userId._id,
-        });
-
         if (wallet) {
-          wallet.amount += activeInvestment.returnAmount;
+          
+          const dailyReturn = plan.returnAmount; 
 
+          
+          wallet.amount += dailyReturn; 
           await wallet.save();
 
-          if (walletHistory) {
-            walletHistory.amount = wallet.amount;
-            walletHistory.date = new Date();
-            walletHistory.timestamp = Date.now();
+          
+          const newWalletHistory = new WalletHistory({
+            amount: dailyReturn, 
+            date: new Date(),
+            type: ['Credit'], 
+            wallet: wallet._id, 
+            userId: userId._id,
+          });
 
-            await walletHistory.save();
-          } else {
-            console.log(`No wallet history found for user ${userId.phone}`);
-          }
+          await newWalletHistory.save();
 
           await NotificationService.createNotification({
-            message: `Your wallet has been credited with ${activeInvestment.returnAmount} as daily return.`,
+            message: `Your wallet has been credited with ${dailyReturn} as a daily return from your plan.`,
             userId: userId._id,
           });
         } else {
@@ -58,9 +66,10 @@ const addDailyReturnToWallets = async () => {
       }
     }
   } catch (error) {
-    console.error("Error adding daily returns to wallets:", error);
+    console.error('Error adding daily returns to wallets:', error);
   }
 };
+
 
 cron.schedule("0 6 * * *", () => {
   addDailyReturnToWallets();

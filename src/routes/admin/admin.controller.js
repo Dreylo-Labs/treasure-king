@@ -1,12 +1,10 @@
 const AdminService = require('../../services/admin.service');
-const InvestmentCycleService = require('../../services/investment-cycle.service');
 const BaseController = require('../base.controller');
 
 class AdminController extends BaseController {
   constructor() {
     super();
     this.service = AdminService;
-    this.investmentCycle = InvestmentCycleService
   }
 
   login() {
@@ -19,13 +17,11 @@ class AdminController extends BaseController {
     });
   }
 
-  getUsersForNextGroupResult() {
-    return this.asyncWrapper(async (req) => {
-      const { groupId } = req.params;
-
-      const users = await this.investmentCycle.getUsersForNextGroupResult(groupId);
-
-      return { data: users };
+  signup() {
+    return this.asyncWrapper(async (req, res) => {
+      const { email, password } = req.body;
+      const newAdmin = await this.service.signup(email, password);
+      res.json({ msg: 'Admin registered successfully', data: newAdmin });
     });
   }
 }

@@ -36,6 +36,7 @@ class UserService {
       phone,
       preferralcode,
       referralcode,
+      isBlocked: false,
     });
 
     const otp = generateRandomNumber(4);

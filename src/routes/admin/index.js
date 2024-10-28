@@ -1,8 +1,7 @@
 const router = require('express').Router();
 const AdminController = require('./admin.controller');
-const { adminAuth } = require('../../middleware/auth');
 
-router.post('/login', adminAuth, AdminController.login());
-router.get('/group/:groupId/users', adminAuth, AdminController.getUsersForNextGroupResult());
+router.post('/login', AdminController.login());
+router.post('/signup', AdminController.signup());
 
 module.exports = router;

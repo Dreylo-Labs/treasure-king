@@ -6660,3 +6660,440 @@
 [2024-10-21 23:01:55:155] [info]: 🚀 We are live on port: 8080
 [2024-10-21 23:01:58:158] [info]: connected to database
 [2024-10-21 23:02:02:22] [info]: GET /api/v1/notification 200 935.260 ms - 354
+[2024-10-28 15:16:04:164] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:16:14:1614] [info]: connected to database
+[2024-10-28 15:23:09:239] [info]: POST /api/v1/user/signup 401 311.338 ms - 553
+[2024-10-28 15:23:25:2325] [info]: POST /api/v1/user/login 200 604.560 ms - 58
+[2024-10-28 15:23:48:2348] [info]: POST /api/v1/user/verify 200 577.650 ms - 425
+[2024-10-28 15:25:11:2511] [info]: GET /api/v1/history 400 7.398 ms - 54
+[2024-10-28 15:25:32:2532] [info]: GET /api/v1/history 200 1241.861 ms - 311
+[2024-10-28 15:39:01:391] [info]: POST /api/v1/address 201 912.205 ms - 260
+[2024-10-28 15:40:01:401] [info]: GET /api/v1/address 404 286.538 ms - -
+[2024-10-28 15:40:35:4035] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:40:35:4035] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:40:42:4042] [info]: connected to database
+[2024-10-28 15:40:58:4058] [info]: PUT /api/v1/address 404 306.666 ms - -
+[2024-10-28 15:41:06:416] [info]: PUT /api/v1/address/update 200 1170.979 ms - 256
+[2024-10-28 15:42:13:4213] [info]: POST /api/v1/address 201 843.860 ms - 261
+[2024-10-28 15:44:32:4432] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:44:33:4433] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:44:41:4441] [info]: connected to database
+[2024-10-28 15:47:18:4718] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:47:24:4724] [info]: connected to database
+[2024-10-28 15:47:28:4728] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:47:31:4731] [info]: connected to database
+[2024-10-28 15:47:53:4753] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:47:55:4755] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:47:56:4756] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:48:02:482] [info]: connected to database
+[2024-10-28 15:48:05:485] [info]: 🚀 We are live on port: 8080
+[2024-10-28 15:48:08:488] [info]: connected to database
+[2024-10-28 15:48:29:4829] [info]: DELETE /api/v1/address/delete/671f637dc525f54c344019e7 401 5.069 ms - 52
+[2024-10-28 15:48:36:4836] [info]: DELETE /api/v1/address/delete/671f637dc525f54c344019e7 200 826.295 ms - 87
+[2024-10-28 16:34:42:3442] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:34:51:3451] [info]: connected to database
+[2024-10-28 16:34:56:3456] [info]: GET /api/v1/history 500 582.120 ms - -
+[2024-10-28 16:38:22:3822] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:38:27:3827] [info]: connected to database
+[2024-10-28 16:38:30:3830] [info]: GET /api/v1/history 200 3806.517 ms - 442
+[2024-10-28 16:41:58:4158] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:42:03:423] [info]: connected to database
+[2024-10-28 16:42:27:4227] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:42:32:4232] [info]: connected to database
+[2024-10-28 16:42:36:4236] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:42:45:4245] [info]: connected to database
+[2024-10-28 16:42:47:4247] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:42:48:4248] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:42:56:4256] [info]: connected to database
+[2024-10-28 16:43:53:4353] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:43:56:4356] [info]: connected to database
+[2024-10-28 16:44:39:4439] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:45:18:4518] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:45:20:4520] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:45:27:4527] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:45:30:4530] [info]: connected to database
+[2024-10-28 16:45:41:4541] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:45:47:4547] [info]: connected to database
+[2024-10-28 16:46:31:4631] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:46:34:4634] [info]: connected to database
+[2024-10-28 16:48:12:4812] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:48:18:4818] [info]: connected to database
+[2024-10-28 16:49:03:493] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:49:05:495] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:49:07:497] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:49:13:4913] [info]: connected to database
+[2024-10-28 16:54:48:5448] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:54:55:5455] [info]: connected to database
+[2024-10-28 16:55:49:5549] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:55:52:5552] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:55:55:5555] [info]: connected to database
+[2024-10-28 16:56:59:5659] [info]: 🚀 We are live on port: 8080
+[2024-10-28 16:57:02:572] [info]: connected to database
+[2024-10-28 16:59:23:5923] [info]: POST /api/v1/admin/signup 500 17.845 ms - -
+[2024-10-28 17:05:33:533] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:05:40:540] [info]: connected to database
+[2024-10-28 17:06:45:645] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:06:53:653] [info]: connected to database
+[2024-10-28 17:06:59:659] [info]: POST /api/v1/admin/signup 500 14.771 ms - -
+[2024-10-28 17:07:36:736] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:07:37:737] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:07:40:740] [info]: connected to database
+[2024-10-28 17:07:58:758] [info]: POST /api/v1/admin/signup 500 17.410 ms - -
+[2024-10-28 17:09:18:918] [info]: POST /api/v1/admin/signup 500 3.008 ms - -
+[2024-10-28 17:15:40:1540] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:15:48:1548] [info]: connected to database
+[2024-10-28 17:16:58:1658] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:18:15:1815] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:18:16:1816] [info]: 🚀 We are live on port: 8080
+[2024-10-28 17:18:25:1825] [info]: connected to database
+[2024-10-28 17:19:12:1912] [info]: POST /api/v1/admin/signup 500 19.603 ms - -
+[2024-10-28 17:21:36:2136] [info]: POST /api/v1/admin/signup 500 2.069 ms - -
+[2024-10-28 18:23:35:2335] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:23:42:2342] [info]: connected to database
+[2024-10-28 18:23:44:2344] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:23:52:2352] [info]: connected to database
+[2024-10-28 18:23:54:2354] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:23:57:2357] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:05:245] [info]: connected to database
+[2024-10-28 18:24:05:245] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:10:2410] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:14:2414] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:18:2418] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:23:2423] [info]: connected to database
+[2024-10-28 18:24:28:2428] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:30:2430] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:33:2433] [info]: connected to database
+[2024-10-28 18:24:36:2436] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:24:42:2442] [info]: connected to database
+[2024-10-28 18:28:04:284] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:28:07:287] [info]: connected to database
+[2024-10-28 18:30:49:3049] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:30:51:3051] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:31:00:310] [info]: connected to database
+[2024-10-28 18:31:15:3115] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:31:18:3118] [info]: connected to database
+[2024-10-28 18:31:23:3123] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:31:27:3127] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:31:28:3128] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:31:37:3137] [info]: connected to database
+[2024-10-28 18:31:38:3138] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:31:44:3144] [info]: connected to database
+[2024-10-28 18:32:07:327] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:32:15:3215] [info]: connected to database
+[2024-10-28 18:32:28:3228] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:32:35:3235] [info]: connected to database
+[2024-10-28 18:32:37:3237] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:32:41:3241] [info]: connected to database
+[2024-10-28 18:32:43:3243] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:32:44:3244] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:32:47:3247] [info]: connected to database
+[2024-10-28 18:33:38:3338] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:33:43:3343] [info]: connected to database
+[2024-10-28 18:33:59:3359] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:34:05:345] [info]: connected to database
+[2024-10-28 18:34:18:3418] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:34:27:3427] [info]: connected to database
+[2024-10-28 18:34:31:3431] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:34:34:3434] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:34:38:3438] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:34:46:3446] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:34:52:3452] [info]: connected to database
+[2024-10-28 18:34:52:3452] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:34:55:3455] [info]: connected to database
+[2024-10-28 18:35:27:3527] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:35:34:3534] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:35:39:3539] [info]: connected to database
+[2024-10-28 18:35:42:3542] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:35:45:3545] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:35:48:3548] [info]: connected to database
+[2024-10-28 18:35:48:3548] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:35:56:3556] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:35:59:3559] [info]: connected to database
+[2024-10-28 18:36:00:360] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:03:363] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:08:368] [info]: connected to database
+[2024-10-28 18:36:15:3615] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:22:3622] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:24:3624] [info]: connected to database
+[2024-10-28 18:36:27:3627] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:30:3630] [info]: connected to database
+[2024-10-28 18:36:33:3633] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:38:3638] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:43:3643] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:45:3645] [info]: connected to database
+[2024-10-28 18:36:47:3647] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:52:3652] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:54:3654] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:55:3655] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:36:59:3659] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:04:374] [info]: connected to database
+[2024-10-28 18:37:06:376] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:08:378] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:12:3712] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:15:3715] [info]: connected to database
+[2024-10-28 18:37:16:3716] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:17:3717] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:23:3723] [info]: connected to database
+[2024-10-28 18:37:32:3732] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:38:3738] [info]: connected to database
+[2024-10-28 18:37:41:3741] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:43:3743] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:48:3748] [info]: connected to database
+[2024-10-28 18:37:50:3750] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:37:57:3757] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:00:380] [info]: connected to database
+[2024-10-28 18:38:05:385] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:10:3810] [info]: connected to database
+[2024-10-28 18:38:25:3825] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:27:3827] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:33:3833] [info]: connected to database
+[2024-10-28 18:38:38:3838] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:39:3839] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:44:3844] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:46:3846] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:50:3850] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:55:3855] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:38:57:3857] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:39:01:391] [info]: connected to database
+[2024-10-28 18:39:51:3951] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:39:57:3957] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:40:02:402] [info]: connected to database
+[2024-10-28 18:40:18:4018] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:40:24:4024] [info]: connected to database
+[2024-10-28 18:40:26:4026] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:40:27:4027] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:40:33:4033] [info]: connected to database
+[2024-10-28 18:40:33:4033] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:40:38:4038] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:40:41:4041] [info]: connected to database
+[2024-10-28 18:40:44:4044] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:18:4118] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:20:4120] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:22:4122] [info]: connected to database
+[2024-10-28 18:41:29:4129] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:30:4130] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:36:4136] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:39:4139] [info]: connected to database
+[2024-10-28 18:41:50:4150] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:51:4151] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:41:56:4156] [info]: connected to database
+[2024-10-28 18:42:24:4224] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:42:28:4228] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:42:31:4231] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:42:36:4236] [info]: connected to database
+[2024-10-28 18:42:58:4258] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:42:59:4259] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:43:01:431] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:43:04:434] [info]: connected to database
+[2024-10-28 18:43:59:4359] [info]: POST /api/v1/plan 401 17.091 ms - 52
+[2024-10-28 18:44:13:4413] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:44:19:4419] [info]: connected to database
+[2024-10-28 18:44:21:4421] [info]: POST /api/v1/plan 201 5000.373 ms - 268
+[2024-10-28 18:45:04:454] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:45:06:456] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:45:14:4514] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:45:17:4517] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:45:45:4545] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:45:58:4558] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:05:465] [info]: connected to database
+[2024-10-28 18:46:18:4618] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:22:4622] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:23:4623] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:25:4625] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:30:4630] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:32:4632] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:35:4635] [info]: connected to database
+[2024-10-28 18:46:35:4635] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:38:4638] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:43:4643] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:47:4647] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:49:4649] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:46:54:4654] [info]: connected to database
+[2024-10-28 18:46:57:4657] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:00:470] [info]: connected to database
+[2024-10-28 18:47:08:478] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:12:4712] [info]: connected to database
+[2024-10-28 18:47:21:4721] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:23:4723] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:25:4725] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:31:4731] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:34:4734] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:39:4739] [info]: connected to database
+[2024-10-28 18:47:40:4740] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:42:4742] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:44:4744] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:46:4746] [info]: connected to database
+[2024-10-28 18:47:51:4751] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:47:54:4754] [info]: connected to database
+[2024-10-28 18:48:00:480] [info]: GET /api/v1/plan 201 284.310 ms - 270
+[2024-10-28 18:48:38:4838] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:48:41:4841] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:48:43:4843] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:48:45:4845] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:48:46:4846] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:48:52:4852] [info]: connected to database
+[2024-10-28 18:49:33:4933] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:49:47:4947] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:49:50:4950] [info]: connected to database
+[2024-10-28 18:49:52:4952] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:49:55:4955] [info]: connected to database
+[2024-10-28 18:51:28:5128] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:51:31:5131] [info]: connected to database
+[2024-10-28 18:52:32:5232] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:52:36:5236] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:52:40:5240] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:52:45:5245] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:52:48:5248] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:52:52:5252] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:52:57:5257] [info]: connected to database
+[2024-10-28 18:53:38:5338] [info]: POST /api/v1/plan 201 310.526 ms - 270
+[2024-10-28 18:53:45:5345] [info]: DELETE /api/v1/plan/delete/671f9059fab080af59669bf3 500 6.134 ms - -
+[2024-10-28 18:54:05:545] [info]: 🚀 We are live on port: 8080
+[2024-10-28 18:54:09:549] [info]: connected to database
+[2024-10-28 18:54:13:5413] [info]: DELETE /api/v1/plan/delete/671f9059fab080af59669bf3 200 302.444 ms - 39
+[2024-10-28 18:54:22:5422] [info]: GET /api/v1/plan 201 290.902 ms - 270
+[2024-10-28 19:00:14:014] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:00:23:023] [info]: connected to database
+[2024-10-28 19:00:27:027] [info]: POST /api/v1/user/login 200 578.037 ms - 58
+[2024-10-28 19:00:42:042] [info]: POST /api/v1/user/verify 200 547.349 ms - 425
+[2024-10-28 19:01:32:132] [info]: POST /api/v1/investment 201 1106.325 ms - 356
+[2024-10-28 19:14:46:1446] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:14:46:1446] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:14:53:1453] [info]: connected to database
+[2024-10-28 19:15:19:1519] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:15:25:1525] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:15:43:1543] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:15:56:1556] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:15:58:1558] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:16:06:166] [info]: connected to database
+[2024-10-28 19:16:09:169] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:16:12:1612] [info]: connected to database
+[2024-10-28 19:20:16:2016] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:20:24:2024] [info]: connected to database
+[2024-10-28 19:30:52:3052] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:30:56:3056] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:31:01:311] [info]: connected to database
+[2024-10-28 19:31:15:3115] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:31:24:3124] [info]: connected to database
+[2024-10-28 19:37:23:3723] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:37:29:3729] [info]: connected to database
+[2024-10-28 19:38:33:3833] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:38:36:3836] [info]: connected to database
+[2024-10-28 19:54:27:5427] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:54:32:5432] [info]: connected to database
+[2024-10-28 19:58:29:5829] [info]: 🚀 We are live on port: 8080
+[2024-10-28 19:58:34:5834] [info]: connected to database
+[2024-10-28 20:00:02:02] [info]: POST /api/v1/admin/signup 500 15.580 ms - -
+[2024-10-28 20:01:07:17] [info]: 🚀 We are live on port: 8080
+[2024-10-28 20:01:15:115] [info]: 🚀 We are live on port: 8080
+[2024-10-28 20:01:18:118] [info]: connected to database
+[2024-10-28 20:01:22:122] [info]: 🚀 We are live on port: 8080
+[2024-10-28 20:01:28:128] [info]: connected to database
+[2024-10-28 20:01:49:149] [info]: POST /api/v1/admin/signup 500 19.735 ms - -
+[2024-10-28 20:14:00:140] [info]: POST /api/v1/admin/signup 500 3.396 ms - -
+[2024-10-28 20:43:16:4316] [info]: 🚀 We are live on port: 8080
+[2024-10-28 20:43:22:4322] [info]: connected to database
+[2024-10-28 21:36:02:362] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:36:09:369] [info]: connected to database
+[2024-10-28 21:36:17:3617] [info]: POST /api/v1/admin/signup 500 13.213 ms - -
+[2024-10-28 21:38:28:3828] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:38:34:3834] [info]: connected to database
+[2024-10-28 21:39:08:398] [info]: POST /api/v1/admin/signup - - ms - -
+[2024-10-28 21:40:06:406] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:40:11:4011] [info]: connected to database
+[2024-10-28 21:41:09:419] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:41:18:4118] [info]: connected to database
+[2024-10-28 21:41:22:4122] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:41:25:4125] [info]: connected to database
+[2024-10-28 21:41:28:4128] [info]: POST /api/v1/admin/signup 500 3185.508 ms - 432
+[2024-10-28 21:41:31:4131] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:41:37:4137] [info]: connected to database
+[2024-10-28 21:41:39:4139] [info]: POST /api/v1/admin/signup 409 3189.197 ms - 591
+[2024-10-28 21:43:28:4328] [info]: POST /api/v1/admin/signup 200 1074.470 ms - 106
+[2024-10-28 21:44:19:4419] [info]: POST /api/v1/admin/login 401 2.006 ms - 52
+[2024-10-28 21:44:43:4443] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:44:51:4451] [info]: connected to database
+[2024-10-28 21:44:54:4454] [info]: POST /api/v1/admin/login 401 7709.424 ms - 473
+[2024-10-28 21:45:29:4529] [info]: POST /api/v1/admin/login 401 505.723 ms - 473
+[2024-10-28 21:45:59:4559] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:46:01:461] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:46:04:464] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:46:06:466] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:46:08:468] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:46:10:4610] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:46:11:4611] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:46:21:4621] [info]: connected to database
+[2024-10-28 21:46:24:4624] [info]: POST /api/v1/admin/login 401 7474.612 ms - 473
+[2024-10-28 21:48:37:4837] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:48:41:4841] [info]: connected to database
+[2024-10-28 21:48:43:4843] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:48:49:4849] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:48:50:4850] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:48:57:4857] [info]: connected to database
+[2024-10-28 21:49:00:490] [info]: POST /api/v1/admin/login 401 594.392 ms - 473
+[2024-10-28 21:49:02:492] [info]: POST /api/v1/admin/login 401 551.969 ms - 473
+[2024-10-28 21:50:33:5033] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:50:36:5036] [info]: connected to database
+[2024-10-28 21:50:44:5044] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:50:48:5048] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:50:51:5051] [info]: connected to database
+[2024-10-28 21:50:55:5055] [info]: POST /api/v1/admin/login 401 524.742 ms - 473
+[2024-10-28 21:52:24:5224] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:52:29:5229] [info]: connected to database
+[2024-10-28 21:52:31:5231] [info]: POST /api/v1/admin/login 401 1464.675 ms - 473
+[2024-10-28 21:52:58:5258] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:53:03:533] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:53:06:536] [info]: connected to database
+[2024-10-28 21:53:08:538] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:53:09:539] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:53:15:5315] [info]: connected to database
+[2024-10-28 21:54:06:546] [info]: POST /api/v1/admin/login 401 578.904 ms - 473
+[2024-10-28 21:55:59:5559] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:56:06:566] [info]: connected to database
+[2024-10-28 21:56:38:5638] [info]: POST /api/v1/admin/signup 200 901.949 ms - 106
+[2024-10-28 21:57:38:5738] [info]: POST /api/v1/admin/login 401 594.450 ms - 473
+[2024-10-28 21:58:09:589] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:58:12:5812] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:58:15:5815] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:58:17:5817] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:58:22:5822] [info]: connected to database
+[2024-10-28 21:58:27:5827] [info]: POST /api/v1/admin/login 401 520.347 ms - 473
+[2024-10-28 21:59:21:5921] [info]: 🚀 We are live on port: 8080
+[2024-10-28 21:59:29:5929] [info]: connected to database
+[2024-10-28 21:59:32:5932] [info]: POST /api/v1/admin/login 401 534.534 ms - 473
+[2024-10-28 22:01:59:159] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:02:04:24] [info]: connected to database
+[2024-10-28 22:02:16:216] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:02:26:226] [info]: connected to database
+[2024-10-28 22:02:28:228] [info]: POST /api/v1/admin/login 200 4951.921 ms - 296
+[2024-10-28 22:02:50:250] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:02:51:251] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:02:59:259] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:03:02:32] [info]: connected to database
+[2024-10-28 22:03:24:324] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:03:31:331] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:03:41:341] [info]: connected to database
+[2024-10-28 22:04:03:43] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:04:06:46] [info]: connected to database
+[2024-10-28 22:04:10:410] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:04:11:411] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:04:17:417] [info]: connected to database
+[2024-10-28 22:07:03:73] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:07:11:711] [info]: connected to database
+[2024-10-28 22:07:31:731] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:07:41:741] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:08:30:830] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:08:35:835] [info]: connected to database
+[2024-10-28 22:10:09:109] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:10:09:109] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:10:12:1012] [info]: connected to database
+[2024-10-28 22:10:17:1017] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:10:18:1018] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:10:27:1027] [info]: connected to database
+[2024-10-28 22:10:33:1033] [info]: POST /api/v1/user/signup 401 331.818 ms - 553
+[2024-10-28 22:10:39:1039] [info]: POST /api/v1/user/signup 401 271.700 ms - 553
+[2024-10-28 22:11:11:1111] [info]: POST /api/v1/user/signup 400 297.206 ms - -
+[2024-10-28 22:11:21:1121] [info]: POST /api/v1/user/signup 400 270.969 ms - -
+[2024-10-28 22:12:24:1224] [info]: 🚀 We are live on port: 8080
+[2024-10-28 22:12:32:1232] [info]: connected to database
+[2024-10-28 22:12:37:1237] [info]: POST /api/v1/user/signup 201 2131.592 ms - 274

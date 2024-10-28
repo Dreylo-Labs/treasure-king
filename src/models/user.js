@@ -25,7 +25,11 @@ const userSchema = new mongoose.Schema({
   dateOfBirth: { type: String },
 
   otp: { type: String },
-  // mpin: { type: String }, isko remove krna hh
+  
+  isBlocked: {
+    type: Boolean,
+    required: true,
+  }
 });
 
 const UserModel = mongoose.model("User", userSchema);

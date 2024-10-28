@@ -35,8 +35,9 @@ class AddressController extends BaseController {
   deleteAddress() {
     return this.asyncWrapper(async (req) => {
       const { _id: userId } = req.user;
+      const { id: addressId } = req.params;
       
-      const address = await this.service.deleteAddress(userId)
+      const address = await this.service.deleteAddress(userId, addressId);
       return {
 
         message: 'Address has been deleted successfully'

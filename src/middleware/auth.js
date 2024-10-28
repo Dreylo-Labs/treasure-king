@@ -2,6 +2,7 @@ const { promisify } = require("util");
 const jwt = require("jsonwebtoken");
 const { gEnv } = require("../utils/env");
 const User = require("../models/user");
+const Admin = require("../models/admin")
 
 const auth = async (req, res, next) => {
   const authHeader = req.headers.authorization;
@@ -38,22 +39,37 @@ const auth = async (req, res, next) => {
 };
 
 const adminAuth = async (req, res, next) => {
-  const token = req.headers.authorization;
+  const authHeader = req.headers.authorization;
 
-  if (!token) {
-    return res.status(401).send({
-      msg: "Access Denied/Not Authorized. Please login",
+  if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    return res.status(401).json({
+      msg: 'Access Denied/Not Authorized. Please login',
     });
   }
 
+  const token = authHeader.split(' ')[1];
+
   try {
-    await promisify(jwt.verify)(token, gEnv("ADMIN_JWT_SECRET"));
+    const secretKey = gEnv('ADMIN_JWT_SECRET');
+    const decoded = await promisify(jwt.verify)(token, secretKey);
+
+    const admin = await Admin.findById(decoded.userId);
+
+    if (!admin || !admin.isAdmin) {
+      return res.status(403).json({
+        msg: 'Admin access required',
+      });
+    }
+
+    req.admin = admin;
     next();
   } catch (error) {
-    return res.status(400).send({
-      msg: "Invalid token. Please login",
+    console.error('JWT verification error:', error);
+    return res.status(401).json({
+      msg: 'Invalid or expired token. Please login again',
     });
   }
 };
+
 
 module.exports = { auth, adminAuth };

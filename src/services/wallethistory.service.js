@@ -1,4 +1,5 @@
-const WalletHistory = require("../models/wallethistory");
+const path = require('path');
+const WalletHistory = require('../models/wallethistory');
 
 class WalletHistoryService {
   constructor() {
@@ -7,8 +8,7 @@ class WalletHistoryService {
   async getWalletHistory(userId) {
     return await this.model
       .findOne({ userId: userId })
-      .populate({ path: "wallet", select: "amount" });
-    
+      .populate([{ path: 'wallet', select: 'amount' }, { path: 'userId' }]);
   }
 }
 

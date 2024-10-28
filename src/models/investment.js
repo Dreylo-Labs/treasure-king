@@ -8,17 +8,15 @@ const investmentSchema = new Schema(
       match: /^TK\d{7}$/,
       unique: true,
     },
-    amount: {
-      type: Number,
+    planId: {
+      type: Schema.Types.ObjectId,
+      ref: 'Plan',
       required: true,
     },
-    returnAmount: {
-      type: Number,
-      required: true,
-    },
+
     userId: {
       type: Schema.Types.ObjectId,
-      ref: "User",
+      ref: 'User',
       required: true,
     },
     isActive: {
