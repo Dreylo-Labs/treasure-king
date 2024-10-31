@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const Admin = require('../models/admin');
 const AppError = require('../utils/app-error');
 const { gEnv } = require('../utils/env');
+const UserModel = require('../models/user');
 
 class AdminService {
   constructor() {
@@ -11,7 +12,7 @@ class AdminService {
 
   async login(email, password) {
     const admin = await Admin.findOne({ email }).select('+password');
-   
+
     if (!admin) throw new AppError('Admin not found', 404);
 
     const isPasswordValid = bcrypt.compare(password, admin.password);
@@ -32,6 +33,16 @@ class AdminService {
     const newAdmin = await Admin.create({ email, password: hashedPassword, isAdmin: true });
 
     return { id: newAdmin._id, email: newAdmin.email };
+  }
+
+  async blockedUser(userId) {
+    const user = await UserModel.findByIdAndUpdate(
+      userId,
+      { $set: { isBlocked: true } },
+      { new: true }
+    );
+
+    return user;
   }
 }
 

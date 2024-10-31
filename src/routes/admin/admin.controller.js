@@ -24,6 +24,19 @@ class AdminController extends BaseController {
       res.json({ msg: 'Admin registered successfully', data: newAdmin });
     });
   }
+
+  blockedUser() {
+    return this.asyncWrapper(async (req) => {
+      const { userId } = req.body;
+
+      const user = await this.service.blockedUser(userId);
+
+      return {
+        data: user,
+        message: 'User blocked',
+      };
+    });
+  }
 }
 
 module.exports = new AdminController();
