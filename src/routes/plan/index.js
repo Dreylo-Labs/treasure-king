@@ -5,7 +5,7 @@ const PlanController = require('./plan.controller');
 router.use(adminAuth);
 
 router.post('/', adminAuth, PlanController.createPlan());
-router.get('/', adminAuth, PlanController.getPlan());
+router.get('/', PlanController.getPlan());
 router.delete('/delete/:id', adminAuth, PlanController.deletePlan());
 
 module.exports = router;

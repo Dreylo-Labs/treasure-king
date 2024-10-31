@@ -14,7 +14,26 @@ class NotificationController extends BaseController {
 
       return {
         data: notification,
-        message: "Notification",
+        message: 'Notification',
+      };
+    });
+  }
+
+  sendNotification() {
+    return this.asyncWrapper(async (req) => {
+      const { userId, message } = req.body;
+
+      if (!message) {
+        const error = new Error('Message is required');
+        error.statusCode = 400;
+        throw error;
+      }
+
+      const notification = await this.service.sendNotification(userId || null, message);
+
+      return {
+        data: notification,
+        message: 'Notification sent successfully',
       };
     });
   }
